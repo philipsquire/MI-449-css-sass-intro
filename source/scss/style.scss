@@ -1,0 +1,84 @@
+@import "_variables";
+
+html{
+  background-color: $third-color;
+}
+
+body{
+  background-color: $fourth-color;
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  text-align: center;
+  font-size: $textsize;
+  margin-bottom: 30px;
+  color: $first-color;
+  font-family: $font;
+}
+
+p{
+  color: $third-color;
+}
+
+a{
+  color: $second-color;
+}
+
+
+h1{
+  font-size: $textsize * 4;
+}
+
+h2{
+  font-size: $textsize * 3;
+}
+
+h3{
+  font-size: $textsize * 2.5;
+}
+
+h4{
+  font-size: $textsize * 2.25;
+}
+
+h5{
+  font-size: $textsize * 1.75;
+}
+
+h6{
+  font-size: $textsize * 1.5;
+}
+
+table{
+  margin-left: auto;
+  margin-right: auto;
+  border: $second-color 2px solid;
+  color: $second-color;
+  border-radius: $radius;
+}
+
+input{
+  background-color: $fourth-color;
+  color: $second-color;
+  font-family: $font;
+  font-size: $textsize * .75;
+  border-radius: $radius;
+  &:focus{
+    color: darken($color: $second-color, $amount: 30%);
+  }
+}
+
+textarea{
+  background-color: $fourth-color;
+  color: $second-color;
+  font-family: $font;
+  font-size: $textsize * .5;
+  border-radius: $radius;
+  
+}
+
+img{
+  border-radius: $radius;
+}
